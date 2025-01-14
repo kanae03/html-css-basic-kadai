@@ -1,8 +1,8 @@
 h1, p, body {
-  margin:0;
+  margin:0px;
 }
 
-p,a {
+p, a {
   font-size: 20px;
 }
 
@@ -17,7 +17,7 @@ h1 {
 }
 
 main {
-  margin: 10px;
+  margin: 10px 10px;
 }
 
 #parent {
@@ -43,7 +43,7 @@ h2::before {
   color: rgb(239, 111, 139);
 }
 
-.contents p:nth-child(3)::first-letter{ 
+div p:nth-child(3)::first-letter{ 
   font-weight: bold;
   color: rgb(97, 206, 249);
 }
